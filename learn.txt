@@ -1,10 +1,14 @@
-Git is a version control system.
-Git is free software.
-Git is a version control system.
-Git is free software.
-Git is a version control system.
-Git is free software.
-Git is a version control system.
-Git is free software.
-Git is a version control system.
-Git is free software.
+git指令总结：
+	$mkdir 文件夹名称   ====创建文件夹
+	$cd 文件夹名	    ====进入当前文件
+	$pwd 		    ====查看当前目录
+	$git init           ====创建版本库
+	$git add 文件名称   ====在刚刚的文件夹里面创建一个文件
+	$git commit -m "wrote a readm file" ==将文件提交到仓库
+	$git status         ====查看文件状态
+	$git diff 文件名    ====查看文件修改的具体内容
+	$git log（git log --pretty=online） ====查看当前文件版本状态
+	$git reset -hard HEAD^     ====HEAD 表示版本号头部
+	$cat 文件名         ====查看文件内部内容
+	$git reflog  	    ====查看最近操作
+=================================================================
