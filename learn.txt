@@ -11,4 +11,9 @@ git指令总结：
 	$git reset -hard HEAD^     ====HEAD 表示版本号头部
 	$cat 文件名         ====查看文件内部内容
 	$git reflog  	    ====查看最近操作
+	$git branch dev    =====创建dev分支
+	$git checkout dev   ====切换到dev分支
+	$git branch         ====查看当前分支
+	$git merge dev      ====将dev分支合并到master
+	$git branch -d dev  ====删除dev分支
 =================================================================
